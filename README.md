@@ -10,7 +10,7 @@
 
 ---
 
-## Contents
+## <img src="assets/icons/book.svg" width="24" height="24" alt=""/> Contents
 
 - Features
 - How It Works
@@ -28,43 +28,43 @@
 
 ## <img src="assets/icons/star.svg" width="24" height="24" alt=""/> Features
 
-### Draw Settings (Prediction)
+### <img src="assets/icons/crosshair.svg" width="20" height="20" alt=""/> Draw Settings (Prediction)
 
 | Feature | Description |
 |---|---|
-| **Draw Lines** | Trajectory prediction line — exact ball path before every shot |
-| **Draw Pockets** | Pocket indicators with visual highlight |
-| **Show Ball Numbers** | Ball number displayed on every ball |
-| **Bounce Sync** | Cushion bounce markers |
-| **Line Extension** | Extended aim guideline for long shots |
-| **After Shot** | Prediction line stays after the shot |
+| <img src="assets/icons/target.svg" width="18" height="18" alt=""/> **Draw Lines** | Trajectory prediction line — exact ball path before every shot |
+| <img src="assets/icons/eye.svg" width="18" height="18" alt=""/> **Draw Pockets** | Pocket indicators with visual highlight |
+| <img src="assets/icons/tag.svg" width="18" height="18" alt=""/> **Show Ball Numbers** | Ball number displayed on every ball |
+| <img src="assets/icons/zap.svg" width="18" height="18" alt=""/> **Bounce Sync** | Cushion bounce markers |
+| <img src="assets/icons/trending-up.svg" width="18" height="18" alt=""/> **Line Extension** | Extended aim guideline for long shots |
+| <img src="assets/icons/timer.svg" width="18" height="18" alt=""/> **After Shot** | Prediction line stays after the shot |
 
-### Auto Play System
-
-| Feature | Description |
-|---|---|
-| **Auto Play Mode** | Fully automatic gameplay |
-| **Auto Aim** | Aim assist — sets cue to the best angle |
-| **Auto Pocket** | Automatic pocket targeting |
-| **Auto Spin** | Automatic spin control |
-| **Cushion Shot** | Bank shots off the cushion |
-| **Clean Table** | Systematic table clearing |
-
-### Auto Queue
+### <img src="assets/icons/play.svg" width="20" height="20" alt=""/> Auto Play System
 
 | Feature | Description |
 |---|---|
-| **Auto Queue** | Automatic matchmaking |
+| <img src="assets/icons/play.svg" width="18" height="18" alt=""/> **Auto Play Mode** | Fully automatic gameplay |
+| <img src="assets/icons/crosshair.svg" width="18" height="18" alt=""/> **Auto Aim** | Aim assist — sets cue to the best angle |
+| <img src="assets/icons/target.svg" width="18" height="18" alt=""/> **Auto Pocket** | Automatic pocket targeting |
+| <img src="assets/icons/sparkles.svg" width="18" height="18" alt=""/> **Auto Spin** | Automatic spin control |
+| <img src="assets/icons/shield.svg" width="18" height="18" alt=""/> **Cushion Shot** | Bank shots off the cushion |
+| <img src="assets/icons/star.svg" width="18" height="18" alt=""/> **Clean Table** | Systematic table clearing |
 
-### Extra Settings
+### <img src="assets/icons/users.svg" width="20" height="20" alt=""/> Auto Queue
 
 | Feature | Description |
 |---|---|
-| **Power Slider** | Fine shot-power control |
-| **Button Clicker** | Automates repetitive taps |
-| **Disable Ads** | Blocks in-game ads |
-| **Disable Flicker** | Smooth overlay rendering |
-| **FPS Counter** | Real-time FPS display |
+| <img src="assets/icons/users.svg" width="18" height="18" alt=""/> **Auto Queue** | Automatic matchmaking |
+
+### <img src="assets/icons/wrench.svg" width="20" height="20" alt=""/> Extra Settings
+
+| Feature | Description |
+|---|---|
+| <img src="assets/icons/sliders-horizontal.svg" width="18" height="18" alt=""/> **Power Slider** | Fine shot-power control |
+| <img src="assets/icons/gauge.svg" width="18" height="18" alt=""/> **Button Clicker** | Automates repetitive taps |
+| <img src="assets/icons/shield.svg" width="18" height="18" alt=""/> **Disable Ads** | Blocks in-game ads |
+| <img src="assets/icons/eye.svg" width="18" height="18" alt=""/> **Disable Flicker** | Smooth overlay rendering |
+| <img src="assets/icons/gauge.svg" width="18" height="18" alt=""/> **FPS Counter** | Real-time FPS display |
 
 ---
 
@@ -227,12 +227,12 @@ Built-in protections in `library.so`:
 
 | Protection | Description |
 |---|---|
-| **Package verification** | `JNI_OnLoad` checks the host package is `com.miniclip.eightballpool`; refuses to run elsewhere |
-| **Xposed detection** | Detects Xposed/EdXposed frameworks at startup |
-| **Code integrity** | Checksums the executable code segment via `/proc/self/maps` to detect tampering |
-| **String obfuscation** | Sensitive strings encrypted with XOR (`oxorany`) |
-| **Symbol hiding** | `-fvisibility=hidden` and `--strip-all` remove symbols from the binary |
-| **License keys** | Time-based keys validated through the license panel backend |
+| <img src="assets/icons/shield-check.svg" width="18" height="18" alt=""/> **Package verification** | `JNI_OnLoad` checks the host package is `com.miniclip.eightballpool`; refuses to run elsewhere |
+| <img src="assets/icons/eye.svg" width="18" height="18" alt=""/> **Xposed detection** | Detects Xposed/EdXposed frameworks at startup |
+| <img src="assets/icons/lock.svg" width="18" height="18" alt=""/> **Code integrity** | Checksums the executable code segment via `/proc/self/maps` to detect tampering |
+| <img src="assets/icons/code.svg" width="18" height="18" alt=""/> **String obfuscation** | Sensitive strings encrypted with XOR (`oxorany`) |
+| <img src="assets/icons/eye.svg" width="18" height="18" alt=""/> **Symbol hiding** | `-fvisibility=hidden` and `--strip-all` remove symbols from the binary |
+| <img src="assets/icons/key.svg" width="18" height="18" alt=""/> **License keys** | Time-based keys validated through the license panel backend |
 
 ---
 
@@ -250,11 +250,11 @@ Built-in protections in `library.so`:
 
 | Tab | Content |
 |---|---|
-| **Draw Settings** | Prediction lines, pockets, ball numbers, bounce markers |
-| **Auto Play** | Auto play, auto aim, auto pocket, spin, cushion shots |
-| **Auto Queue** | Matchmaking automation |
-| **Extra Settings** | Power slider, clicker, ads off, FPS counter |
-| **Info** | License status, expiry countdown, version |
+| <img src="assets/icons/crosshair.svg" width="18" height="18" alt=""/> **Draw Settings** | Prediction lines, pockets, ball numbers, bounce markers |
+| <img src="assets/icons/play.svg" width="18" height="18" alt=""/> **Auto Play** | Auto play, auto aim, auto pocket, spin, cushion shots |
+| <img src="assets/icons/users.svg" width="18" height="18" alt=""/> **Auto Queue** | Matchmaking automation |
+| <img src="assets/icons/wrench.svg" width="18" height="18" alt=""/> **Extra Settings** | Power slider, clicker, ads off, FPS counter |
+| <img src="assets/icons/book.svg" width="18" height="18" alt=""/> **Info** | License status, expiry countdown, version |
 
 The menu header shows a VIP license expiry countdown.
 
@@ -284,12 +284,12 @@ The menu header shows a VIP license expiry countdown.
 
 | Technology | Purpose |
 |---|---|
-| **Android (Java)** | App shell, floating overlay |
-| **C++ (NDK)** | Hooks, prediction engine |
-| **ImGui** | In-game menu UI |
-| **And64InlineHook / Substrate / xhook** | Function hooking |
-| **HTML / CSS / JS** | License panel |
-| **Firebase** | License backend |
+| <img src="assets/icons/smartphone.svg" width="18" height="18" alt=""/> **Android (Java)** | App shell, floating overlay |
+| <img src="assets/icons/code.svg" width="18" height="18" alt=""/> **C++ (NDK)** | Hooks, prediction engine |
+| <img src="assets/icons/eye.svg" width="18" height="18" alt=""/> **ImGui** | In-game menu UI |
+| <img src="assets/icons/cpu.svg" width="18" height="18" alt=""/> **And64InlineHook / Substrate / xhook** | Function hooking |
+| <img src="assets/icons/globe.svg" width="18" height="18" alt=""/> **HTML / CSS / JS** | License panel |
+| <img src="assets/icons/cloud.svg" width="18" height="18" alt=""/> **Firebase** | License backend |
 
 ---
 
@@ -297,10 +297,10 @@ The menu header shows a VIP license expiry countdown.
 
 | Feature | Description |
 |---|---|
-| **Key Generation** | Time-based license keys |
-| **User Management** | Track users and keys |
-| **Admin Dashboard** | Keys, expiry, logs in one place |
-| **Firebase Backend** | Real-time sync |
+| <img src="assets/icons/key.svg" width="18" height="18" alt=""/> **Key Generation** | Time-based license keys |
+| <img src="assets/icons/users.svg" width="18" height="18" alt=""/> **User Management** | Track users and keys |
+| <img src="assets/icons/shield.svg" width="18" height="18" alt=""/> **Admin Dashboard** | Keys, expiry, logs in one place |
+| <img src="assets/icons/cloud.svg" width="18" height="18" alt=""/> **Firebase Backend** | Real-time sync |
 
 ```bash
 python3 -m http.server 8000
